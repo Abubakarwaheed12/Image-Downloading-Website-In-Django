@@ -14,4 +14,4 @@ def index(request):
     
     f=ImageForm()
     img=Image.objects.all()
-    return render(request, 'index.html' ,{'form':f , 'iamges':img})
+    return render(request, 'index.html' ,{'form':f , 'images':img})
